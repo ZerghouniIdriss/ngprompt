@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "ngprompt": {
+      "factory": "./ngprompt-schematic/index#ngpromptSchematic",
+      "schema": "./ngprompt-schematic/schema.json",
+      "description": "Ngprompt schematic."
+    }
+  }
+}
